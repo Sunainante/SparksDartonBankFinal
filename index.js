@@ -102,4 +102,4 @@ app.post("/customer",async(req,res)=>{
   res.redirect("/customer");
 })
 
-//app.listen(PORT,()=>console.log("app listening at 4000"));
+app.listen(PORT,()=>console.log("app listening at 4000"));
